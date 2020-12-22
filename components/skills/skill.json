@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_skills_skills",
+  "info": {
+    "name": "skill",
+    "icon": "allergies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "NormalAttack",
+        "ElementalSkill",
+        "ElementalBurst"
+      ]
+    }
+  }
+}

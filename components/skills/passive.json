@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_skills_passives",
+  "info": {
+    "name": "passive",
+    "icon": "baby"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "ascension": {
+      "type": "integer",
+      "max": 4,
+      "min": 0
+    }
+  }
+}

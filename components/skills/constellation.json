@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_skills_constellations",
+  "info": {
+    "name": "constellation",
+    "icon": "star"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "constellation": {
+      "type": "integer",
+      "max": 6,
+      "min": 0
+    }
+  }
+}

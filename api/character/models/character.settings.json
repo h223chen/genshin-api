@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "characters",
+  "info": {
+    "name": "character",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "element": {
+      "type": "enumeration",
+      "enum": [
+        "Pyro",
+        "Cryo",
+        "Electro",
+        "Hydro",
+        "Anemo",
+        "Geo",
+        "Dendro"
+      ]
+    },
+    "skill": {
+      "type": "component",
+      "repeatable": true,
+      "component": "skills.skill"
+    },
+    "passive": {
+      "type": "component",
+      "repeatable": true,
+      "component": "skills.passive"
+    },
+    "constellation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "skills.constellation"
+    }
+  }
+}
