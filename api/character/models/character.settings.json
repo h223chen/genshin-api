@@ -12,7 +12,9 @@
   },
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "unique": true,
+      "required": true
     },
     "description": {
       "type": "text"
@@ -43,6 +45,27 @@
       "type": "component",
       "repeatable": true,
       "component": "skills.constellation"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "rarity": {
+      "type": "integer",
+      "min": 3,
+      "max": 5
+    },
+    "weapon": {
+      "type": "enumeration",
+      "enum": [
+        "Sword",
+        "Claymore",
+        "Polearm",
+        "Bow",
+        "Catalyst"
+      ]
+    },
+    "materials": {
+      "collection": "material"
     }
   }
 }
