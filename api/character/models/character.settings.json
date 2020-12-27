@@ -17,7 +17,8 @@
       "required": true
     },
     "description": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "element": {
       "type": "enumeration",
@@ -29,7 +30,8 @@
         "Anemo",
         "Geo",
         "Dendro"
-      ]
+      ],
+      "required": true
     },
     "skill": {
       "type": "component",
@@ -52,7 +54,8 @@
     "rarity": {
       "type": "integer",
       "min": 3,
-      "max": 5
+      "max": 5,
+      "required": true
     },
     "weapon": {
       "type": "enumeration",
@@ -62,7 +65,8 @@
         "Polearm",
         "Bow",
         "Catalyst"
-      ]
+      ],
+      "required": true
     },
     "materials": {
       "collection": "material"

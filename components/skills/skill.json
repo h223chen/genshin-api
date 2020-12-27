@@ -8,18 +8,23 @@
   "options": {},
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "unique": true
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "type": {
       "type": "enumeration",
       "enum": [
         "NormalAttack",
         "ElementalSkill",
-        "ElementalBurst"
-      ]
+        "ElementalBurst",
+        "RightClick"
+      ],
+      "required": true
     }
   }
 }
