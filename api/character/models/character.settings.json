@@ -23,13 +23,13 @@
     "element": {
       "type": "enumeration",
       "enum": [
-        "Pyro",
-        "Cryo",
-        "Electro",
-        "Hydro",
-        "Anemo",
-        "Geo",
-        "Dendro"
+        "pyro",
+        "cryo",
+        "electro",
+        "hydro",
+        "anemo",
+        "geo",
+        "dendro"
       ],
       "required": true
     },
@@ -60,16 +60,13 @@
     "weapon": {
       "type": "enumeration",
       "enum": [
-        "Sword",
-        "Claymore",
-        "Polearm",
-        "Bow",
-        "Catalyst"
+        "sword",
+        "claymore",
+        "polearm",
+        "bow",
+        "catalyst"
       ],
       "required": true
-    },
-    "materials": {
-      "collection": "material"
     }
   }
 }

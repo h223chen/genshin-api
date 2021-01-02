@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_skills_skill_levels",
+  "info": {
+    "name": "SkillLevel",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "values": {
+      "type": "component",
+      "repeatable": true,
+      "component": "skills.skill-attribute",
+      "required": true
+    },
+    "level": {
+      "type": "string",
+      "maxLength": 2,
+      "minLength": 1,
+      "default": "1",
+      "unique": false,
+      "required": true
+    }
+  }
+}

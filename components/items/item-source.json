@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_items_item_sources",
+  "info": {
+    "name": "ItemSource",
+    "icon": "apple-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "enumeration",
+      "enum": [
+        "adventure_rank_reward",
+        "wish",
+        "crafted",
+        "found_in_the_wild"
+      ],
+      "required": true,
+      "unique": true
+    }
+  }
+}

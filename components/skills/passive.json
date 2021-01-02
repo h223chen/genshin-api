@@ -20,6 +20,11 @@
       "max": 4,
       "min": 0,
       "required": true
+    },
+    "levels": {
+      "type": "component",
+      "repeatable": true,
+      "component": "skills.skill-level"
     }
   }
 }

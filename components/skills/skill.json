@@ -16,15 +16,19 @@
       "type": "richtext",
       "required": true
     },
+    "levels": {
+      "type": "component",
+      "repeatable": true,
+      "component": "skills.skill-level"
+    },
     "type": {
       "type": "enumeration",
       "enum": [
-        "NormalAttack",
-        "ElementalSkill",
-        "ElementalBurst",
-        "RightClick"
-      ],
-      "required": true
+        "normal_attack",
+        "elemental_skill",
+        "elemental_burst",
+        "right_click"
+      ]
     }
   }
 }
