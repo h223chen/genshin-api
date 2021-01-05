@@ -9,7 +9,9 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jsdom": "^16.4.0"
+  },
   "dependencies": {
     "knex": "<0.20.0",
     "mysql": "latest",
