@@ -1,18 +1,18 @@
 {
   "paths": {
-    "/items": {
+    "/weapons": {
       "get": {
         "deprecated": false,
-        "description": "",
+        "description": "Find all the weapons's records",
         "responses": {
           "200": {
-            "description": "response",
+            "description": "Retrieve weapons document(s)",
             "content": {
               "application/json": {
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Item"
+                    "$ref": "#/components/schemas/Weapons"
                   }
                 }
               }
@@ -51,7 +51,7 @@
         },
         "summary": "",
         "tags": [
-          "Item"
+          "Weapons"
         ],
         "parameters": [
           {
@@ -194,14 +194,14 @@
       },
       "post": {
         "deprecated": false,
-        "description": "Create a new record",
+        "description": "Create a new weapons record",
         "responses": {
           "200": {
-            "description": "response",
+            "description": "Retrieve weapons document(s)",
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Item"
+                  "$ref": "#/components/schemas/Weapons"
                 }
               }
             }
@@ -239,7 +239,7 @@
         },
         "summary": "",
         "tags": [
-          "Item"
+          "Weapons"
         ],
         "requestBody": {
           "description": "",
@@ -247,20 +247,20 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/NewItem"
+                "$ref": "#/components/schemas/NewWeapons"
               }
             }
           }
         }
       }
     },
-    "/items/count": {
+    "/weapons/count": {
       "get": {
         "deprecated": false,
-        "description": "",
+        "description": "Retrieve the numver of weapons documents",
         "responses": {
           "200": {
-            "description": "response",
+            "description": "Retrieve weapons document(s)",
             "content": {
               "application/json": {
                 "schema": {
@@ -306,22 +306,22 @@
         },
         "summary": "",
         "tags": [
-          "Item"
+          "Weapons"
         ],
         "parameters": []
       }
     },
-    "/items/{id}": {
+    "/weapons/{id}": {
       "get": {
         "deprecated": false,
-        "description": "",
+        "description": "Find one weapons record",
         "responses": {
           "200": {
-            "description": "response",
+            "description": "Retrieve weapons document(s)",
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Item"
+                  "$ref": "#/components/schemas/Weapons"
                 }
               }
             }
@@ -359,7 +359,7 @@
         },
         "summary": "",
         "tags": [
-          "Item"
+          "Weapons"
         ],
         "parameters": [
           {
@@ -376,14 +376,14 @@
       },
       "put": {
         "deprecated": false,
-        "description": "Update a record",
+        "description": "Update a single weapons record",
         "responses": {
           "200": {
-            "description": "response",
+            "description": "Retrieve weapons document(s)",
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Item"
+                  "$ref": "#/components/schemas/Weapons"
                 }
               }
             }
@@ -421,7 +421,7 @@
         },
         "summary": "",
         "tags": [
-          "Item"
+          "Weapons"
         ],
         "requestBody": {
           "description": "",
@@ -429,7 +429,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/NewItem"
+                "$ref": "#/components/schemas/NewWeapons"
               }
             }
           }
@@ -449,10 +449,10 @@
       },
       "delete": {
         "deprecated": false,
-        "description": "Delete a record",
+        "description": "Delete a single weapons record",
         "responses": {
           "200": {
-            "description": "deletes a single record based on the ID supplied",
+            "description": "deletes a single weapons based on the ID supplied",
             "content": {
               "application/json": {
                 "schema": {
@@ -495,7 +495,7 @@
         },
         "summary": "",
         "tags": [
-          "Item"
+          "Weapons"
         ],
         "parameters": [
           {
@@ -514,45 +514,108 @@
   },
   "components": {
     "schemas": {
-      "Item": {
+      "Weapons": {
         "required": [
-          "id",
-          "name",
-          "description"
+          "id"
         ],
         "properties": {
           "id": {
             "type": "string"
           },
-          "name": {
-            "type": "string"
-          },
-          "description": {
-            "type": "string"
-          },
-          "source": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "required": [
-                "id",
-                "name"
-              ],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "name": {
-                  "type": "string",
-                  "enum": [
-                    "adventure_rank_reward",
-                    "wish",
-                    "crafted",
-                    "found_in_the_wild"
-                  ]
+          "base_info": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "rarity": {
+                "type": "string",
+                "enum": [
+                  "no_star",
+                  "one_star",
+                  "two_star",
+                  "three_star",
+                  "four_star",
+                  "five_star"
+                ]
+              },
+              "source": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "id",
+                    "name"
+                  ],
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string",
+                      "enum": [
+                        "adventure_rank_reward",
+                        "wish",
+                        "crafted",
+                        "found_in_the_wild"
+                      ]
+                    }
+                  }
                 }
               }
             }
+          },
+          "wep_type": {
+            "type": "string",
+            "enum": [
+              "Bow",
+              "Catalyst",
+              "Claymore",
+              "Polearm",
+              "Sword"
+            ]
+          },
+          "base_stats": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "base_atk_lvl_one": {
+                "type": "integer"
+              },
+              "secondary_stat_type": {
+                "type": "string",
+                "enum": [
+                  "ATK",
+                  "DEF",
+                  "HP",
+                  "CRIT_DMG",
+                  "CRIT_RATE",
+                  "ELE_MASTERY",
+                  "ENERGY_RECHARGE",
+                  "PHYS_DMG_BONUS"
+                ]
+              },
+              "secondary_stat_lvl_one": {
+                "type": "number"
+              }
+            }
+          },
+          "series": {
+            "type": "string"
           },
           "published_at": {
             "type": "string",
@@ -560,41 +623,102 @@
           }
         }
       },
-      "NewItem": {
-        "required": [
-          "name",
-          "description"
-        ],
+      "NewWeapons": {
         "properties": {
-          "name": {
-            "type": "string"
-          },
-          "description": {
-            "type": "string"
-          },
-          "source": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "required": [
-                "id",
-                "name"
-              ],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "name": {
-                  "type": "string",
-                  "enum": [
-                    "adventure_rank_reward",
-                    "wish",
-                    "crafted",
-                    "found_in_the_wild"
-                  ]
+          "base_info": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "rarity": {
+                "type": "string",
+                "enum": [
+                  "no_star",
+                  "one_star",
+                  "two_star",
+                  "three_star",
+                  "four_star",
+                  "five_star"
+                ]
+              },
+              "source": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "id",
+                    "name"
+                  ],
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string",
+                      "enum": [
+                        "adventure_rank_reward",
+                        "wish",
+                        "crafted",
+                        "found_in_the_wild"
+                      ]
+                    }
+                  }
                 }
               }
             }
+          },
+          "wep_type": {
+            "type": "string",
+            "enum": [
+              "Bow",
+              "Catalyst",
+              "Claymore",
+              "Polearm",
+              "Sword"
+            ]
+          },
+          "base_stats": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "base_atk_lvl_one": {
+                "type": "integer"
+              },
+              "secondary_stat_type": {
+                "type": "string",
+                "enum": [
+                  "ATK",
+                  "DEF",
+                  "HP",
+                  "CRIT_DMG",
+                  "CRIT_RATE",
+                  "ELE_MASTERY",
+                  "ENERGY_RECHARGE",
+                  "PHYS_DMG_BONUS"
+                ]
+              },
+              "secondary_stat_lvl_one": {
+                "type": "number"
+              }
+            }
+          },
+          "series": {
+            "type": "string"
           },
           "published_at": {
             "type": "string",
@@ -612,7 +736,7 @@
   },
   "tags": [
     {
-      "name": "Item"
+      "name": "Weapons"
     }
   ]
 }

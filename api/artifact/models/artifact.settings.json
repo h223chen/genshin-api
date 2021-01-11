@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "artifacts",
+  "info": {
+    "name": "Artifact"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "basic_settings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "items.base-item"
+    },
+    "artifact_type": {
+      "type": "enumeration",
+      "enum": [
+        "flower",
+        "plume",
+        "goblet",
+        "circlet",
+        "hourglass"
+      ]
+    }
+  }
+}

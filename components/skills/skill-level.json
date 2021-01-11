@@ -15,10 +15,6 @@
     },
     "level": {
       "type": "string",
-      "maxLength": 2,
-      "minLength": 1,
-      "default": "1",
-      "unique": false,
       "required": true
     }
   }

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_weapons_base_stats",
+  "info": {
+    "name": "BaseStats",
+    "icon": "angle-double-up"
+  },
+  "options": {},
+  "attributes": {
+    "base_atk_lvl_one": {
+      "type": "integer"
+    },
+    "secondary_stat_type": {
+      "type": "enumeration",
+      "enum": [
+        "ATK",
+        "DEF",
+        "HP",
+        "CRIT_DMG",
+        "CRIT_RATE",
+        "ELE_MASTERY",
+        "ENERGY_RECHARGE",
+        "PHYS_DMG_BONUS"
+      ]
+    },
+    "secondary_stat_lvl_one": {
+      "type": "decimal"
+    }
+  }
+}

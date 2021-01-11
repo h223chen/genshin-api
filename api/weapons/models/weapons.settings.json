@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "weapons",
+  "info": {
+    "name": "Weapon",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "base_info": {
+      "type": "component",
+      "repeatable": false,
+      "component": "items.base-item"
+    },
+    "wep_type": {
+      "type": "enumeration",
+      "enum": [
+        "Bow",
+        "Catalyst",
+        "Claymore",
+        "Polearm",
+        "Sword"
+      ]
+    },
+    "base_stats": {
+      "type": "component",
+      "repeatable": false,
+      "component": "weapons.base-stats"
+    },
+    "series": {
+      "type": "string"
+    }
+  }
+}

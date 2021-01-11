@@ -600,10 +600,7 @@
                         }
                       },
                       "level": {
-                        "type": "string",
-                        "default": "1",
-                        "maxLength": 2,
-                        "minLength": 1
+                        "type": "string"
                       }
                     }
                   }
@@ -679,10 +676,7 @@
                         }
                       },
                       "level": {
-                        "type": "string",
-                        "default": "1",
-                        "maxLength": 2,
-                        "minLength": 1
+                        "type": "string"
                       }
                     }
                   }
@@ -749,10 +743,7 @@
                         }
                       },
                       "level": {
-                        "type": "string",
-                        "default": "1",
-                        "maxLength": 2,
-                        "minLength": 1
+                        "type": "string"
                       }
                     }
                   }
@@ -864,10 +855,7 @@
                         }
                       },
                       "level": {
-                        "type": "string",
-                        "default": "1",
-                        "maxLength": 2,
-                        "minLength": 1
+                        "type": "string"
                       }
                     }
                   }
@@ -943,10 +931,7 @@
                         }
                       },
                       "level": {
-                        "type": "string",
-                        "default": "1",
-                        "maxLength": 2,
-                        "minLength": 1
+                        "type": "string"
                       }
                     }
                   }
@@ -1013,10 +998,7 @@
                         }
                       },
                       "level": {
-                        "type": "string",
-                        "default": "1",
-                        "maxLength": 2,
-                        "minLength": 1
+                        "type": "string"
                       }
                     }
                   }

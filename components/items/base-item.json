@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_items_base_items",
+  "info": {
+    "name": "BaseItem",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "rarity": {
+      "type": "enumeration",
+      "enum": [
+        "no_star",
+        "one_star",
+        "two_star",
+        "three_star",
+        "four_star",
+        "five_star"
+      ]
+    },
+    "source": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.item-source"
+    }
+  }
+}

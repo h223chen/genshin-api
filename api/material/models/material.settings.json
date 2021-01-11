@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "materials",
+  "info": {
+    "name": "Material"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "basic_info": {
+      "type": "component",
+      "repeatable": false,
+      "component": "items.base-item"
+    },
+    "mat_type": {
+      "type": "enumeration",
+      "enum": [
+        "chara_exp",
+        "chara_ascension",
+        "talent",
+        "wep_enhancement",
+        "wep_ascension",
+        "common_ascension",
+        "forging",
+        "local_specialty",
+        "cooking"
+      ]
+    }
+  }
+}
