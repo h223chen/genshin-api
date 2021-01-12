@@ -1,0 +1,92 @@
+{
+  "Kurious Kamera": {
+    "Type": "Gadget, Recipe",
+    "Rarity": 4,
+    "In-game Description": "Use this during the \"Five Flushes of Fortune\" event to store images that contain objects with a specially-designated color in them.Ji Tong imported this new Kamera model from Fontaine, but it seems to not work as he hopes it might...?"
+  },
+  "Portable Waypoint": {
+    "Type": "Gadget, Recipe",
+    "Rarity": 4,
+    "In-game Description": "Use this to create a temporary Teleport Waypoint at your current location. Only one can exist at a time.A pocket-sized item that creates a temporary Teleport Waypoint. It is capable of connecting with the ley lines, at least to the extent necessary to bring about teleportation.Although it offers an incredible convenience to Vision bearers, the actual principles behind Teleport Waypoints are not yet fully understood. We can only hope that using them does not cause any undesirable side effects..."
+  },
+  "Special Kamera": {
+    "Type": "Gadget, Recipe",
+    "Rarity": 4,
+    "In-game Description": "When used, this useful gadget can save and store the scenery before it and add a special color tone to it.A strange device from Fontaine that will not only record sceneries but will also add special colors to the printed images. This design was made in response to \"The Steambird\"'s request for a Kamera that could not only reflect the environment, but also the emotions of the one taking the picture. Unfortunately, the final product could not quite fulfill their specifications."
+  },
+  "Parametric Transformer": {
+    "Type": "Gadget, Recipe",
+    "Rarity": 4,
+    "In-game Description": "A device that can transmute materials placed within and convert it into some other material.·During the transmutation process, you must use Elemental Attacks to generate enough energy for the transmutation to take place.·After obtaining the transmuted materials, you must wait seven days to use it once again.The mysterious device that you discovered in the ruins has the power to accelerate cycles and \"transmute\" material objects. Generally speaking, everything is undergoing a cycle. Memories and elements surge within the ley lines, rotten fallen fruits return to the soil, and the trees born from the soil will one day bear crystal fruit..."
+  },
+  "Condensed Resin": {
+    "Type": "Gadget, Recipe",
+    "Rarity": 4,
+    "In-game Description": "You can hold no more than 3 at a time.Condensed tree resin that can be used instead of Original Resin to revitalize Petrified Trees and Ley Line Blossoms to receive greater rewards.Crystal filled with immense energy.The silver-white Irminsul trees and blossoms are connected to ley lines that have become blocked over time. The energy contained in tree resin can purify the obstructing substance."
+  },
+  "Warming Bottle": {
+    "Type": "Gadget, Recipe",
+    "Rarity": 3,
+    "In-game Description": "Upon use, emits heat for a short period over a small area, diminishing the effect of Sheer Cold.Warming Seelie have evolved in response to the extreme change in temperature to give the comfort of warmth to those who seek it. This convenient gadget was originally crafted by those who struggled to survive in the snowy mountains in imitation of such evolved Seelie."
+  },
+  "Anemo Treasure Compass": {
+    "Type": "Gadget, Recipe",
+    "Rarity": 4,
+    "In-game Description": "A compass that can be used in Mondstadt to search for nearby chests.The needle of the Treasure Compass doesn't spin according to the world's magnetic field, but rather follows the energy of ley lines to lead the user to treasure."
+  },
+  "Anemoculus Resonance Stone": {
+    "Type": "Gadget, Recipe",
+    "Rarity": 4,
+    "In-game Description": "A stone that can be used in Mondstadt to search for nearby Anemoculi.This man-made stone plate possesses a certain characteristic similar to that of the Anemo Statues of The Seven, giving it the power to resonate with Anemoculi.Oculus Resonance Stones are crude imitations of the Statues of The Seven constructed by the ancients. But it is precisely this crudeness that makes them crave the power of elemental oculi, thus providing devout worshippers and adventurers alike a prime opportunity to collect oculi."
+  },
+  "Geoculus Resonance Stone": {
+    "Type": "Gadget, Recipe",
+    "Rarity": 3,
+    "In-game Description": "A stone that can be used in Liyue to search for nearby Geoculi.This exquisite stone plate imitates a certain mysterious quality of the Geo Statues of The Seven, causing it to lead people to the location of Geoculi.Elemental Oculi represent the lost power of the Statues of The Seven — perhaps offering this power back to the statues also has significance for the lands that the gods watch over."
+  },
+  "Mini Seelie: RosÃ©": {
+    "Type": "Gadget, Recipe",
+    "Rarity": 4,
+    "In-game Description": "A memento from the Lost Riches event. Equip it to obtain a mini Seelie companion.A miniature powder-pink Seelie. Though it cannot say a word, it will silently follow a traveler that strikes its fancy around the world."
+  },
+  "Mini Seelie: Dayflower": {
+    "Type": "Gadget, Recipe",
+    "Rarity": 4,
+    "In-game Description": "A memento from the Lost Riches event. Equip it to obtain a mini Seelie companion.A miniature sea-blue Seelie. Unlike other Seelie, it does not serve to guide others, but to follow them to see the world."
+  },
+  "Wind Catcher": {
+    "Type": "Gadget, Recipe",
+    "Rarity": 4,
+    "In-game Description": "A bottle that is able to hold Anemograna and use their energy to generate wind currents.This item was designed by Knights of Favonius scholars to help the Knights on their scouting expeditions and travels by affording them the ability to better use the blessings of the Anemo God.In order to take advantage of its wind currents with a wind glider, however, you technically need a gliding license — this has prevented it from becoming widely used, at least legally anyway."
+  },
+  "Geo Treasure Compass": {
+    "Type": "Gadget, Recipe",
+    "Rarity": 4,
+    "In-game Description": "A compass that can be used in Liyue to search for nearby chests.The land of Geo is rich with valuable resources, with treasures hidden throughout the mountains and wilderness just waiting to be found."
+  },
+  "NRE (Menu 30)": {
+    "Type": "Gadget, Recipe",
+    "Rarity": 4,
+    "In-game Description": "A handy meal-in-a-pouch that can transform most foods into instantly absorbable nutritional matter. Despite the fact that it can greatly increase the efficiency of nutritional intake, most knights aren't too keen to put their food in it..."
+  },
+  "Adepti Seeker’s Stove": {
+    "Type": "Gadget, Recipe",
+    "Rarity": 3,
+    "In-game Description": "A portable stove that can be quickly set up for cooking in the environment. If you enter into combat nearby, it will be destroyed.Liyue's terrain is vast, varied, and at times even inhospitable — and yet all its inhabitants share a love of good food. These two phenomena would not be able to coexist were it not for portable cooking equipment like this. Whether you are scaling the heights of Jueyun Karst or exploring the islets of Guyun Stone Forest, bringing a portable stove means that a delicious and freshly cooked hot meal is always available at a moment's notice."
+  },
+  "Mini Seelie: Curcuma": {
+    "Type": "Gadget, Recipe",
+    "Rarity": 4,
+    "In-game Description": "A memento from the Lost Riches event. Equip it to obtain a mini Seelie companion.A miniature golden Seelie. It gives off a feeling very similar to that of Mora. They say that Seelie of this color represent good fortune."
+  },
+  "Treasure-Seeking Seelie": {
+    "Type": "Gadget, Recipe",
+    "Rarity": 4,
+    "In-game Description": "A small and special Seelie, particularly sensitive to the presence of Iron Coins.A companion entrusted to you by Ulman. Seelie are naturally inclined to guide people, though this Seelie seems weaker than usual, and possesses a remarkable obsession with Iron Coins..."
+  },
+  "Kamera": {
+    "Type": "Gadget, Recipe",
+    "Rarity": 4,
+    "In-game Description": "A convenient tool that records and saves images upon use.A special item from Fontaine that can record images. People and places to remember must come aplenty for a Traveler roaming the world."
+  }
+}

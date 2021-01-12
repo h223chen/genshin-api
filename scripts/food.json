@@ -1,0 +1,954 @@
+{
+  "Flaming Red Bolognese": {
+    "Type": "Food, Special Dish",
+    "Rarity": 2,
+    "Effect": "Restores 26% of Max HP to the selected character and regenerates 570 HP every 5s for 30s.",
+    "In-game Description": "Lisa's specialty. With an inexplicable aurora, this bolognese is so exotic that you can never have enough. Did she actually enchant it with some kind of magic?",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Mysterious Bolognese (Requires Lisa)"
+  },
+  "Jueyun Chili Chicken": {
+    "Type": "Food, Special Dish",
+    "Rarity": 2,
+    "Effect": "Increases all party members' CRIT Rate by 16% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "Xinyan's specialty. Its demonic appearance hides an absolutely demonic spiciness. Eat it, tear up, eat some more, and don't stop till you drop! Surely only a demon could have invented such a dish!",
+    "Chef de Cuisine": "",
+    "": "Rockin' Riffin' Chicken! (Requires Xinyan)"
+  },
+  "Radish Veggie Soup": {
+    "Type": "Food",
+    "Rarity": 1,
+    "Effect": "Restores 10% of Max HP to the selected character and regenerates 300 HP every 5s for 30s.",
+    "In-game Description": "Radish-based vegetable soup. The clear aromas are perfectly accompanied by a sunny summer afternoon.",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Delicious Radish Veggie Soup"
+  },
+  "Almond Tofu": {
+    "Type": "Food, Special Dish",
+    "Rarity": 2,
+    "Effect": "Increases all party members' ATK by 114 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "Xiao's specialty. His dream is very simple, and it is merely a lovely dream.",
+    "Chef de Cuisine": "",
+    "": "\"Sweet Dream\" (Requires Xiao)"
+  },
+  "Steak": {
+    "Type": "Food, Special Dish",
+    "Rarity": 1,
+    "Effect": "Revives a character and restores 10% of Max HP, then restores an additional 150 HP.",
+    "In-game Description": "Amber's specialty. One side is obviously uncooked. The other side gives off a subtle scent of something burnt. Close your eyes and have a big mouthful, just to keep Amber happy if nothing else.",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Outrider's Champion Steak! (Requires Amber)"
+  },
+  "Goulash": {
+    "Type": "Food",
+    "Rarity": 2,
+    "Effect": "Decreases the rate of Sheer Cold accumulation for all party members for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "A steaming-hot stew. Just one spoonful sends a down-to-earth sense of satisfaction welling up from the depths of your heart. The meat's flavor grows with every chew, bringing limitless strength to the eater even in the coldest wintry wastes.",
+    "": "Delicious Goulash"
+  },
+  "Grilled Tiger Fish": {
+    "Type": "Food, Special Dish",
+    "Rarity": 1,
+    "Effect": "Restores 16% of Max HP and an additional 1,350 HP to the selected character.",
+    "In-game Description": "Keqing's specialty. This dish was not grilled. Instead, it was fried from within through the delicate application of Electro. A gentle bite reveals fragrant fish under the lightly charred skin, its taste perfectly balanced. So, is this how she survives in the wild? You really can't judge a book by its cover.",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Survival Grilled Fish (Requires Keqing)"
+  },
+  "Tea Break Pancake": {
+    "Type": "Food, Special Dish",
+    "Rarity": 2,
+    "Effect": "Revives a character and restores 15% of Max HP, then restores an additional 550 HP.",
+    "In-game Description": "Noelle's specialty. These thick pastries are the special afternoon snacks of the Knights of Favonius. They give people the sense that they have fallen upon a layer of fluffy clouds, and seeing Noelle's smile makes the feeling all the sweeter!",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Lighter-Than-Air Pancake (Requires Noelle)"
+  },
+  "Chicken-Mushroom Skewer": {
+    "Type": "Food, Special Dish",
+    "Rarity": 1,
+    "Effect": "Restores 16% of Max HP and an additional 1,350 HP to the selected character.",
+    "In-game Description": "Kaeya's specialty. A chewy skewer with a rich sweet aftertaste. Wait... Is this really the smell of fruit?",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Fruity Skewers (Requires Kaeya)"
+  },
+  "Cream Stew": {
+    "Type": "Food, Special Dish",
+    "Rarity": 2,
+    "Effect": "Decreases all party members' sprinting Stamina consumption by 25% for 1500s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "Barbara's Specialty. Carrots cut into cute little stars make this dish... Wait, AHH, where did this spiciness come from!?",
+    "": "Spicy Stew (Requires Barbara)"
+  },
+  "Golden Shrimp Balls": {
+    "Type": "Food",
+    "Rarity": 3,
+    "Effect": "Revives a character and restores 1500 HP.",
+    "In-game Description": "A deep-fried shrimp dish. From the rich, indulgent scent of crispy golden potato strips, to the satisfying crunch as you take your first bite, to the grand finale of delicious sweet shrimp, this dish is pure pleasure.",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Delicious Golden Shrimp Balls"
+  },
+  "Matsutake Meat Rolls": {
+    "Type": "Food",
+    "Rarity": 2,
+    "Effect": "Restores 24% of Max HP and an additional 1,500 HP to the selected character.",
+    "In-game Description": "A pan-fried meat dish. It combines the essences of the mountains and the nourishments of the celestial bodies. It is a very nutritious dish that will surely bring a smile to your face.",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Delicious Matsutake Meat Rolls"
+  },
+  "Northern Smoked Chicken": {
+    "Type": "Food",
+    "Rarity": 2,
+    "Effect": "Restores 60 Stamina",
+    "In-game Description": "Smoked fowl paired with vegetables. A dish fit for a King. Go on, find one and serve him with pride.",
+    "": "Delicious Northern Smoked Chicken"
+  },
+  "Noodles with Mountain Delicacies": {
+    "Type": "Food, Special Dish",
+    "Rarity": 2,
+    "Effect": "Restores 80 Stamina",
+    "In-game Description": "Chongyun's specialty. Though these springy noodles would be irresistible in the sweltering summer, Chongyun insists on dining on them even in the chattering cold of winter. What a guy.",
+    "": "Cold Noodles with Mountain Delicacies (Requires Chongyun)"
+  },
+  "Jewelry Soup": {
+    "Type": "Food",
+    "Rarity": 2,
+    "Effect": "Increases all party members' DEF by 126 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "A simple vegetable soup. The mild-tasting soup is filled with the fragrance of fresh vegetables. This down-to-earth and heart-warming soup can rival any luxurious dish.",
+    "Maid's Knighthood": "",
+    "A Rad Recipe": "",
+    "": "Delicious Jewelry Soup"
+  },
+  "Calla Lily Seafood Soup": {
+    "Type": "Food, Special Dish",
+    "Rarity": 3,
+    "Effect": "Increases all party members' DEF by 282 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "Tartaglia's specialty. It looks like a trapped beast floundering in an ocean of blood, its death throes an inaudible scream... But Tartaglia smiles and explains that this is something he fished out of the sea, with some products from his homeland on the side.",
+    "Maid's Knighthood": "",
+    "A Rad Recipe": "",
+    "": "A Prize Catch (Requires Tartaglia)"
+  },
+  "Mora Meat": {
+    "Type": "Food, Special Dish",
+    "Rarity": 1,
+    "Effect": "Revives a character and restores 10% of Max HP, then restores an additional 150 HP.",
+    "In-game Description": "Ningguang's specialty. The pastry is perfectly soft and waxy, as is the consistency of the meat, and the honey-like meat juices ooze out as you squeeze it. Wherever did the high and mighty Tianquan Lady Ningguang learn to make this dish?",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Qiankun Mora Meat (Requires Ningguang)"
+  },
+  "Mushroom Pizza": {
+    "Type": "Food, Special Dish",
+    "Rarity": 3,
+    "Effect": "Restores 34% of Max HP to the selected character and regenerates 980 HP every 5s for 30s.",
+    "In-game Description": "Jean's specialty. This pizza almost seems more art than food. Just one slice is enough to have you raring to go. Is this what keeps Jean working so hard?",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Invigorating Pizza (Requires Jean)"
+  },
+  "Sweet Madame": {
+    "Type": "Food",
+    "Rarity": 2,
+    "Effect": "Restores 24% of Max HP and an additional 1,500 HP to the selected character.",
+    "In-game Description": "Honey-roasted fowl. Tender and sweet, the meat has perfectly fused with the honey, ensuring the only thing left of this dish will be the cleanly-picked bones.",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Delicious Sweet Madame"
+  },
+  "Fisherman’s Toast": {
+    "Type": "Food, Special Dish",
+    "Rarity": 2,
+    "Effect": "Increases all party members' DEF by 151 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "Klee's specialty. By way of apology for wantonly using her bombs to scare away the fish, Jean instructed Klee to make this toast for the fishermen. It's filling and tasty. Klee will never starve again, even after a whole day of blast fishing.",
+    "Maid's Knighthood": "",
+    "A Rad Recipe": "",
+    "": "Fish-Flavored Toast (Requires Klee)"
+  },
+  "Stir-Fried Filet": {
+    "Type": "Food, Special Dish",
+    "Rarity": 1,
+    "Effect": "Revives a character and restores 10% of Max HP, then restores an additional 150 HP.",
+    "In-game Description": "Beidou's specialty. They say that Beidou once learned some tricks from Xiangling, making some refinements and adding more flavor to this dish. If you can clean it out in one go, perhaps you might impress her.",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Flash-Fried Filet (Requires Beidou)"
+  },
+  "Mondstadt Grilled Fish": {
+    "Type": "Food, Special Dish",
+    "Rarity": 1,
+    "Effect": "Revives a character and restores 10% of Max HP, then restores an additional 150 HP.",
+    "In-game Description": "Diona's specialty. The fish skin is crisp, and the meat is sumptuous. Only someone with a sufficiently great love for fish would be able to bring out such lovely flavors. Now, if only there were something to drink to go with it... Uh-oh, she's looking this way!",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Definitely Not Bar Food! (Requires Diona)"
+  },
+  "Stone Harbor Delicacies": {
+    "Type": "Food",
+    "Rarity": 2,
+    "Effect": "Increases all party members' CRIT Rate by 12% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "Wok-fried vegetarian food. The scents of the earth, the cool shade, and the moistness of the mist have all been enjoined into this plate of freshness. Pair it with simple white rice — both your taste buds and your soul shall experience a down-to-earth satisfaction many times over.",
+    "": "Delicious Stone Harbor Delicacies"
+  },
+  "Sticky Honey Roast": {
+    "Type": "Food",
+    "Rarity": 3,
+    "Effect": "Decreases all party members' climbing and sprinting Stamina consumption by 25% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "A meat dish in a sweet honey sauce. The warm honey draws out the flavor of the meat, creating a flavor explosion akin to bathing in the warm summer sun.",
+    "": "Delicious Sticky Honey Roast"
+  },
+  "Crystal Shrimp": {
+    "Type": "Food, Special Dish",
+    "Rarity": 2,
+    "Effect": "Restores 26% of Max HP to the selected character and regenerates 570 HP every 5s for 30s.",
+    "In-game Description": "Xingqiu's specialty. This dish's almost artisan appearance makes one almost reluctant to tuck in. But once you get a taste, its fresh, light and lovely sweetness will make the dish hard to put down.... Hang on a moment. Did he throw the carrots out, by any chance?",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "All-Delicacy Parcels (Requires Xingqiu)"
+  },
+  "Teyvat Fried Egg": {
+    "Type": "Food, Special Dish",
+    "Rarity": 1,
+    "Effect": "Revives a character and restores 10% of Max HP, then restores an additional 150 HP.",
+    "In-game Description": "Bennett's specialty. For some reason, every single fried egg is a little burnt around the edges. That said, the burnt crisp does lends a whole new flavor to the dish.",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Teyvat Charred Egg (Requires Bennett)"
+  },
+  "Fried Radish Balls": {
+    "Type": "Food",
+    "Rarity": 2,
+    "Effect": "Increases all party members' ATK by 95 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "Fried Radish Balls. It's insane that something so delicious comes from plain old radishes! All who eat them will truly understand Liyue's culinary reputation.",
+    "Chef de Cuisine": "",
+    "": "Delicious Fried Radish Balls"
+  },
+  "Satisfying Salad": {
+    "Type": "Food, Special Dish",
+    "Rarity": 2,
+    "Effect": "Increases all party members' CRIT Rate by 16% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "Mona's specialty. A great work from a great astrologer. Its greatest aspect lies with its cost-effectiveness in filling one's stomach.",
+    "Chef de Cuisine": "",
+    "": "Der Weisheit Letzter Schluss (Life) (Requires Mona)"
+  },
+  "Vegetarian Abalone": {
+    "Type": "Food, Special Dish",
+    "Rarity": 2,
+    "Effect": "Revives a character and restores 15% of Max HP, then restores an additional 550 HP.",
+    "In-game Description": "Hu Tao's specialty. The round-faced ghouls seem quite cute, squeezed into a pile as they are. But if you were to fall to temptation and try but one of them, you may yet come to regret it for a long while... After all, this plate is full of top-quality, taste-bud-blasting— Actually, what on earth is this stuff, anyway?",
+    "": "Ghostly March (Requires Hu Tao)"
+  },
+  "Lotus Seed and Bird Egg Soup": {
+    "Type": "Food",
+    "Rarity": 2,
+    "Effect": "Decreases all party members' sprinting Stamina consumption by 25% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "A steamed egg dish. The succulent eggs melt right in your mouth, and before you know it, a smooth and subtle sweetness of newly sprung lotus flowers covers your tastebuds.",
+    "": "Delicious Lotus Seed and Bird Egg Soup"
+  },
+  "Cold Cut Platter": {
+    "Type": "Food, Special Dish",
+    "Rarity": 3,
+    "Effect": "Increases all party members' Physical DMG by 55% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "Fischl's specialty. The exquisite presentation doth seem to communicate some incomprehensible enigma. When partaking, if one were to gaze upon Fischl, one might see her expectant gaze peek through the gaps of her fingers, which she is using to cover half her face... Is this also part of the mystery?",
+    "Chef de Cuisine": "",
+    "": "Die Heilige Sinfonie (Requires Fischl)"
+  },
+  "Mondstadt Hash Brown": {
+    "Type": "Food, Special Dish",
+    "Rarity": 3,
+    "Effect": "Restores 40% of Max HP and an additional 2,350 HP to the selected character.",
+    "In-game Description": "Razor's specialty. Carefully shaped to resemble a wolf's paw. You can really feel the effort he has put into trying human cooking.",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Puppy-Paw Hash Brown (Requires Razor)"
+  },
+  "Black-Back Perch Stew": {
+    "Type": "Food, Special Dish",
+    "Rarity": 3,
+    "Effect": "Restores 34% of Max HP to the selected character and regenerates 980 HP every 5s for 30s.",
+    "In-game Description": "Xiangling's specialty. This is the signature dish of the Wanmin Restaurant, combining Xiangling's heartfelt passion for cuisine. Anyone who tastes it will gain a pure appreciation for gourmet food amid the hearty and addictive blend of flavors.",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Wanmin Restaurant's Boiled Fish (Requires Xiangling)"
+  },
+  "Suspicious Steak": {
+    "Type": "Food, Special Dish",
+    "Rarity": 1,
+    "Effect": "Revives a character and restores 10% of Max HP, then restores an additional 150 HP.",
+    "In-game Description": "Amber's specialty. One side is obviously uncooked. The other side gives off a subtle scent of something burnt. Close your eyes and have a big mouthful, just to keep Amber happy if nothing else.",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Outrider's Champion Steak! (Requires Amber)"
+  },
+  "Barbatos Ratatouille": {
+    "Type": "Food, Special Dish",
+    "Rarity": 3,
+    "Effect": "Decreases all party members' gliding and sprinting Stamina consumption by 25% for 1800s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "Venti's specialty. Other than the Cecilia flowers used for decoration, the ingredients are no different from normal. But if you taste it carefully, you can taste the flavor of \"a wind that brings hope and tiny twists of fate.\" Perhaps... this is exactly what he wants.",
+    "": "A Buoyant Breeze (Requires Venti)"
+  },
+  "Fullmoon Egg": {
+    "Type": "Food",
+    "Rarity": 3,
+    "Effect": "Revives a character and restores 1500 HP.",
+    "In-game Description": "One of Liyue's traditional snacks. Take a bite while it's hot, and have your tastebuds savor the tender minced meat and delicious juice, an experience which is then topped off with a finishing touch of sweet prawn. Before your eyes, you can almost see a full moon over rippling waters, a fishing boat by the shore, and the fishermen's songs echoing down the years.",
+    "": "Delicious Fullmoon Egg"
+  },
+  "Golden Crab": {
+    "Type": "Food",
+    "Rarity": 4,
+    "Effect": "Increases all party members' DEF by 308 and healing effects by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "A crab dish cooked in the ancient ways. The aroma of the crab meat inundates the room the instant it leaves the frying pan, and a single bite fills one's palate with the countless rustic flavors of a fishing village hometown. It seems that such simple yet timeless village customs held the secret to this lavish, golden sumptuousness all along.",
+    "Maid's Knighthood": "",
+    "A Rad Recipe": "",
+    "": "Delicious Golden Crab"
+  },
+  "Lantern Rite Special Grilled Tiger Fish": {
+    "Type": "Food",
+    "Rarity": 1,
+    "Effect": "Restores 10% of Max HP and an additional 1,200 HP to the selected character.",
+    "In-game Description": "Traditional cuisine made to celebrate Lantern Rite. The fish is a fresh catch straight from the harbor, lightly seasoned and swiftly grilled. Its aroma attracts the street cats. Indeed, freshness is the secret of flavor."
+  },
+  "Fruity Skewers": {
+    "Type": "Food",
+    "Rarity": 1,
+    "Effect": "Restores 10% of Max HP and an additional 1,200 HP to the selected character.",
+    "In-game Description": "A skewer of mushrooms and poultry. All the best the wild has to offer are pierced on just one stick.",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Delicious Chicken-Mushroom Skewer"
+  },
+  "Tianshu Meat": {
+    "Type": "Food",
+    "Rarity": 4,
+    "Effect": "Increases all party members' Physical DMG by 45% and CRIT Rate by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "A braised meat dish. Its intense aroma can be detected from miles away. The ingredients look exquisite in every way, capturing the essence of its original design. It would not look out of place on a gourmet spread at Yuehai Pavilion.",
+    "": "Delicious Tianshu Meat"
+  },
+  "Delicious Chicken-Mushroom Skewer": {
+    "Type": "Food, Special Dish",
+    "Rarity": 1,
+    "Effect": "Restores 16% of Max HP and an additional 1,350 HP to the selected character.",
+    "In-game Description": "Kaeya's specialty. A chewy skewer with a rich sweet aftertaste. Wait... Is this really the smell of fruit?",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Fruity Skewers (Requires Kaeya)"
+  },
+  "Lantern Rite Special Come and Get It": {
+    "Type": "Food",
+    "Rarity": 3,
+    "Effect": "Increases all party members' CRIT Rate by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "Traditional cuisine made to celebrate Lantern Rite. There is no great refinement in the making of this food, and it appears in Liyue often during festival season. Whenever this dish is served up, the person at the head of the table will invite everyone to dig in, saying \"Come on, eat, eat,\" hence the name."
+  },
+  "Lantern Rite Special Lotus Seed and Bird Egg Soup": {
+    "Type": "Food",
+    "Rarity": 2,
+    "Effect": "Decreases all party members' sprinting Stamina consumption by 25% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "Traditional cuisine made to celebrate Lantern Rite. The clear, gold colors of the egg custard have been embellished with several lotus roots. Regardless of whether it is breakfast or a post-meal snack, its superior nutritional value can greatly nourish the body."
+  },
+  "Moon Pie": {
+    "Type": "Food",
+    "Rarity": 4,
+    "Effect": "Increases all party members' Shield Strength by 35% and DEF by 235 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "A traditional staple from Mondstadt. As you cut a slice off this small meat pie, the aromas of butter and meat assault your senses simultaneously. The rustic, sweet mouthfeel reminds you of the sights and sounds of harvest festivals, bringing a smile unbidden to your face.",
+    "": "Delicious Moon Pie"
+  },
+  "Bamboo Shoot Soup": {
+    "Type": "Food, Special Dish",
+    "Rarity": 3,
+    "Effect": "Restores 34% of Max HP to the selected character and regenerates 980 HP every 5s for 30s.",
+    "In-game Description": "Zhongli's specialty. The ham is a butt end selected according to Yuehai Pavilion's gourmet standards. The fresh meat is pork belly, freshly hunted in Springvale, while the bamboo shoots are the densest you'll find in Qingce Village. It is then heated, slowly, gently, and with the utmost care and technique... Such a \"particular\" taste may only be shared with those who know how to appreciate it.",
+    "": "Slow-Cooked Bamboo Shoot Soup (Requires Zhongli)"
+  },
+  "Adventurer’s Breakfast Sandwich": {
+    "Type": "Food",
+    "Rarity": 3,
+    "Effect": "Increases all party members' ATK by 228 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "A nutritious egg dish. The mayonnaise rises like the sun over the rippling poached egg's surface, and the exquisite mouthfeel really hits the spot. The unique salty flavor of the ham cuts right through the mix as well, like light parting the gathered clouds.",
+    "": "Delicious Adventurer's Breakfast Sandwich"
+  },
+  "SautÃ©ed Matsutake": {
+    "Type": "Food",
+    "Rarity": 3,
+    "Effect": "Increases all party members' ATK by 228 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "Sautéed slices of Matsutake. So smooth and fragrant, eating them is like having the bursting vitality of spring absorbed into your stomach.",
+    "Chef de Cuisine": "",
+    "": "Delicious Sautéed Matsutake"
+  },
+  "Suspicious Chicken-Mushroom Skewer": {
+    "Type": "Food, Special Dish",
+    "Rarity": 1,
+    "Effect": "Restores 16% of Max HP and an additional 1,350 HP to the selected character.",
+    "In-game Description": "Kaeya's specialty. A chewy skewer with a rich sweet aftertaste. Wait... Is this really the smell of fruit?",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Fruity Skewers (Requires Kaeya)"
+  },
+  "Lantern Rite Special Jewelry Soup": {
+    "Type": "Food",
+    "Rarity": 2,
+    "Effect": "Increases all party members' DEF by 126 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "Traditional cuisine made to celebrate Lantern Rite. Snapdragon, tofu, and lotus seeds are put into boiling water and simmered. Jewelry Soup earned its luxurious name from the look of the ingredients used, but contrary to its name, the soup is commonly prepared and served in ordinary households."
+  },
+  "Outrider’s Champion Steak!": {
+    "Type": "Food",
+    "Rarity": 1,
+    "Effect": "Revives a character and restores 150 HP.",
+    "In-game Description": "A grilled steak. Juicy, flavorsome, fragrant steak. One bite and you feel yourself come alive.",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Delicious Steak"
+  },
+  "Qingce Stir Fry": {
+    "Type": "Food",
+    "Rarity": 3,
+    "Effect": "Increases all party members' ATK by 228 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "A dish cooked over a roaring fire. Just catching a whiff is enough to work up one's appetite. The tingle of chili titillates the tongue, leaving you ready to devour ten bowls in a single sitting.",
+    "Chef de Cuisine": "",
+    "": "Delicious Qingce Stir Fry"
+  },
+  "Adeptus’ Temptation": {
+    "Type": "Food",
+    "Rarity": 5,
+    "Effect": "Increases all party members' ATK by 372 and CRIT Rate by 12% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "A complex, famous type of Liyue cuisine. This dish is a rare and exquisite mix of both land and sea, combining countless delicious delicacies in one flavor-filled pot. Each mouthful is a moment to remember — it's even irresistible enough to entice the adepti down from their celestial abode.",
+    "": "Delicious Adeptus' Temptation"
+  },
+  "Universal Peace": {
+    "Type": "Food, Special Dish",
+    "Rarity": 3,
+    "Effect": "Restores 40% of Max HP and an additional 2,350 HP to the selected character.",
+    "In-game Description": "Ganyu's specialty. The image of a resting qilin is by itself enough to calm a person down. Ganyu has put her well-wishes for all that is lovely in this world into this dish — and she's saved some of her favorite Qingxin Flowers just for you, too.",
+    "": "Prosperous Peace (Requires Ganyu)"
+  },
+  "Come and Get It": {
+    "Type": "Food, Special Dish",
+    "Rarity": 3,
+    "Effect": "Increases all party members' CRIT Rate by 20% and CRIT DMG by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s)",
+    "In-game Description": "Qiqi's specialty. The neat rows of ingredients seem at once exotic and delicious, and Baizhu says that Qiqi has spent a long time creating this dish. Still, once one considers that Qiqi has no sense of taste, just putting chopsticks to the food is going to take some courage.",
+    "Chef de Cuisine": "",
+    "": "No Tomorrow (Requires Qiqi)"
+  },
+  "Sunshine Sprat": {
+    "Type": "Food, Special Dish",
+    "Rarity": 3,
+    "Effect": "Increases all party members' Shield Strength by 35% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "Albedo's specialty. The fruits and vegetables are laid out like grass, and they stand tall like trees. In this miniature world-in-a-plate, you circle the mottled city wall, follow brown alleys, and enter the light orange castle. A sweet, tender taste then bursts forth like a blooming flower. You open your eyes. There is a smile in the white-haired prince's eyes.",
+    "": "Woodland Dream (Requires Albedo)"
+  },
+  "Jade Parcels": {
+    "Type": "Food",
+    "Rarity": 4,
+    "Effect": "Increases all party members' ATK by 320 and CRIT Rate by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "An exquisite-looking dish. The sweetness of the ham and the crisp lotus seeds are a match made in heaven. The aromatic broth pours down like the dawning light, caressing your tongue with an unworldly delicious taste.",
+    "": "Delicious Jade Parcels"
+  },
+  "Zhongyuan Chop Suey": {
+    "Type": "Food",
+    "Rarity": 3,
+    "Effect": "Decreases all party members' climbing and sprinting Stamina consumption by 25% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "A seasoned and cooked meat dish. The authentic \"Liyue taste\" of this aromatic dish makes it a comfort food for golden-agers that may bring a tear to their eyes.",
+    "": "Delicious Zhongyuan Chop Suey"
+  },
+  "Squirrel Fish": {
+    "Type": "Food",
+    "Rarity": 3,
+    "Effect": "Restores 34% of Max HP and an additional 1,900 HP to the selected character.",
+    "In-game Description": "A hard-to-prepare fish dish. The fish is expertly handled to exhibit an elegant shape; however, the exquisitely balanced sweet-and-sour taste is really where the dish truly comes alive. The culinary skills involved in preparing this dish can impress even the greatest chefs of Liyue.",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Delicious Squirrel Fish"
+  },
+  "Lotus Flower Crisp": {
+    "Type": "Food",
+    "Rarity": 3,
+    "Effect": "Increases all party members' DEF by 235 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "One of Liyue's traditional snacks. The flower petals waver to life if you gently blow on them. As you close your eyes and take a bite, a luscious flavor covers your tastebuds like a sweet harmony of blooming flowers and fluttering birds in the breeze.",
+    "": "Delicious Lotus Flower Crisp"
+  },
+  "Delicious Matsutake Meat Rolls": {
+    "Type": "Food",
+    "Rarity": 2,
+    "Effect": "Restores 22% of Max HP and an additional 1,200 HP to the selected character.",
+    "In-game Description": "A pan-fried meat dish. Ground meat is put on the Matsutake and gently pan-fried on low heat so the Matsutake can fully take in the aromatic juice of the meat. It's a mouthwatering delicacy in all of its glory.",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Matsutake Meat Rolls"
+  },
+  "Jueyun Guoba": {
+    "Type": "Food",
+    "Rarity": 3,
+    "Effect": "Increases all party members' Physical DMG by 40% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "One of Liyue's specialty snacks. Chow down on that lovely, fragrant crust and the steaming ham sitting atop it. The spices and spiciness race neck and neck into your nostrils, creating an addictive flavor that has you licking that last finger rather than let a single scrap go to waste.",
+    "": "Delicious Jueyun Guoba"
+  },
+  "Lantern Rite Special Triple-Layered ConsommÃ©": {
+    "Type": "Food",
+    "Rarity": 3,
+    "Effect": "Increases all party members' Shield Strength by 30% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "Traditional cuisine made to celebrate Lantern Rite. The ham, fowl, and bamboo shoots have been sliced into threads of equal length, and they've been laid out neatly in the soup bowl after being steamed at high heat, before being covered in consommé. The layers are distinct, and the mouthfeel is salty yet fresh."
+  },
+  "Pile ‘Em Up": {
+    "Type": "Food, Special Dish",
+    "Rarity": 3,
+    "Effect": "Increases all party members' CRIT Rate by 20% and CRIT DMG by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s)",
+    "In-game Description": "Diluc's specialty. Feast your eyes and then your stomach upon this delicacy as the soft ribs melt in your mouth. Who knew Diluc was able to cook this well?",
+    "Chef de Cuisine": "",
+    "": "\"Once Upon a Time in Mondstadt\" (Requires Diluc)"
+  },
+  "Lantern Rite Special Fried Radish Balls": {
+    "Type": "Food",
+    "Rarity": 2,
+    "Effect": "Increases all party members' ATK by 95 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "Traditional cuisine made to celebrate Lantern Rite. Fragrant and crispy. Make sure to eat them while they're hot!"
+  },
+  "Triple-Layered ConsommÃ©": {
+    "Type": "Food",
+    "Rarity": 3,
+    "Effect": "Increases all party members' Shield Strength by 30% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "A neatly-arranged dish. The evenly-sized threads reveal exquisite knife-work. Rather than a dish, this seems more like a work of art. But once you work up the wherewithal to pick up those chopsticks and have at it, the delicious flavors will be utter bliss — leaving this as a mere work of art would be such a shame.",
+    "": "Delicious Triple-Layered Consommé"
+  },
+  "Northern Apple Stew": {
+    "Type": "Food",
+    "Rarity": 3,
+    "Effect": "Restores 34% of Max HP and an additional 1,900 HP to the selected character.",
+    "In-game Description": "A dish with braised meat and apples. The meat is juicy in the extreme, and no matter how much of it you eat, you still want more. The way every breath you take is tinged with the flavor of apples reminds you of nothing so much as lying in an apple orchard.",
+    "": "Delicious Northern Apple Stew"
+  },
+  "Lantern Rite Special Noodles with Mountain Delicacies": {
+    "Type": "Food",
+    "Rarity": 2,
+    "Effect": "Restores 60 Stamina",
+    "In-game Description": "Traditional cuisine made to celebrate Lantern Rite. The sauce has a rustic flavor, and there's a generous amount of it mixed in with the noodles. A humble but enduringly popular dish."
+  },
+  "Crab, Ham & Veggie Bake": {
+    "Type": "Food, Special Dish",
+    "Rarity": 3,
+    "Effect": "Revives the selected character and restores 20% of Max HP, then restores an additional 1500 HP.",
+    "In-game Description": "Sucrose's specialty. It looks like some strange alchemical product at first, but Sucrose insists that it is a healthy and nutritious meal, the result of many experiments and painstaking improvements. Its healthy green color comes from a mix of cream and natural vegetable juices... Wait, vegetable juices?",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Nutritious Meal (V.593) (Requires Sucrose)"
+  },
+  "Delicious Mondstadt Grilled Fish": {
+    "Type": "Food, Special Dish",
+    "Rarity": 1,
+    "Effect": "Revives a character and restores 10% of Max HP, then restores an additional 150 HP.",
+    "In-game Description": "Diona's specialty. The fish skin is crisp, and the meat is sumptuous. Only someone with a sufficiently great love for fish would be able to bring out such lovely flavors. Now, if only there were something to drink to go with it... Uh-oh, she's looking this way!",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Definitely Not Bar Food! (Requires Diona)"
+  },
+  "Delicious Teyvat Fried Egg": {
+    "Type": "Food, Special Dish",
+    "Rarity": 1,
+    "Effect": "Revives a character and restores 10% of Max HP, then restores an additional 150 HP.",
+    "In-game Description": "Bennett's specialty. For some reason, every single fried egg is a little burnt around the edges. That said, the burnt crisp does lends a whole new flavor to the dish.",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Teyvat Charred Egg (Requires Bennett)"
+  },
+  "Definitely Not Bar Food!": {
+    "Type": "Food",
+    "Rarity": 1,
+    "Effect": "Revives a character and restores 150 HP.",
+    "In-game Description": "Fish grilled thoroughly with moderate fire, locking the delicious juice inside the meat under the crispy skin. A small bite is all that's needed to unlock its wondrous and delicious taste.",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Delicious Mondstadt Grilled Fish"
+  },
+  "Qiankun Mora Meat": {
+    "Type": "Food",
+    "Rarity": 1,
+    "Effect": "Revives a character and restores 150 HP.",
+    "In-game Description": "A large hunk of minced meat packaged inside a pastry. With a crispy crust and tender meat, this legendary delicacy is so succulent that not even Mora laid in front of you could distract you from enjoying it.",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Delicious Mora Meat"
+  },
+  "Delicious Grilled Tiger Fish": {
+    "Type": "Food, Special Dish",
+    "Rarity": 1,
+    "Effect": "Restores 16% of Max HP and an additional 1,350 HP to the selected character.",
+    "In-game Description": "Keqing's specialty. This dish was not grilled. Instead, it was fried from within through the delicate application of Electro. A gentle bite reveals fragrant fish under the lightly charred skin, its taste perfectly balanced. So, is this how she survives in the wild? You really can't judge a book by its cover.",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Survival Grilled Fish (Requires Keqing)"
+  },
+  "Teyvat Charred Egg": {
+    "Type": "Food",
+    "Rarity": 1,
+    "Effect": "Revives a character and restores 150 HP.",
+    "In-game Description": "An egg fried on one side. With a taste of the summer sun, it invigorates you from the first bite.",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Delicious Teyvat Fried Egg"
+  },
+  "Suspicious Teyvat Fried Egg": {
+    "Type": "Food, Special Dish",
+    "Rarity": 1,
+    "Effect": "Revives a character and restores 10% of Max HP, then restores an additional 150 HP.",
+    "In-game Description": "Bennett's specialty. For some reason, every single fried egg is a little burnt around the edges. That said, the burnt crisp does lends a whole new flavor to the dish.",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Teyvat Charred Egg (Requires Bennett)"
+  },
+  "Suspicious Tea Break Pancake": {
+    "Type": "Food, Special Dish",
+    "Rarity": 2,
+    "Effect": "Revives a character and restores 15% of Max HP, then restores an additional 550 HP.",
+    "In-game Description": "Noelle's specialty. These thick pastries are the special afternoon snacks of the Knights of Favonius. They give people the sense that they have fallen upon a layer of fluffy clouds, and seeing Noelle's smile makes the feeling all the sweeter!",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Lighter-Than-Air Pancake (Requires Noelle)"
+  },
+  "Suspicious Fried Radish Balls": {
+    "Type": "Food",
+    "Rarity": 2,
+    "Effect": "Increases all party members' ATK by 95 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "Fried Radish Balls. It's insane that something so delicious comes from plain old radishes! All who eat them will truly understand Liyue's culinary reputation.",
+    "Chef de Cuisine": "",
+    "": "Delicious Fried Radish Balls"
+  },
+  "Suspicious Northern Smoked Chicken": {
+    "Type": "Food",
+    "Rarity": 2,
+    "Effect": "Restores 60 Stamina",
+    "In-game Description": "Smoked fowl paired with vegetables. A dish fit for a King. Go on, find one and serve him with pride.",
+    "": "Delicious Northern Smoked Chicken"
+  },
+  "Delicious Stir-Fried Filet": {
+    "Type": "Food, Special Dish",
+    "Rarity": 1,
+    "Effect": "Revives a character and restores 10% of Max HP, then restores an additional 150 HP.",
+    "In-game Description": "Beidou's specialty. They say that Beidou once learned some tricks from Xiangling, making some refinements and adding more flavor to this dish. If you can clean it out in one go, perhaps you might impress her.",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Flash-Fried Filet (Requires Beidou)"
+  },
+  "Delicious Northern Smoked Chicken": {
+    "Type": "Food",
+    "Rarity": 2,
+    "Effect": "Restores 50 Stamina",
+    "In-game Description": "Smoked fowl paired with vegetables. A staple for Northerners, often made for honored guests.",
+    "": "Northern Smoked Chicken"
+  },
+  "Delicious Sweet Madame": {
+    "Type": "Food",
+    "Rarity": 2,
+    "Effect": "Restores 22% of Max HP and an additional 1,200 HP to the selected character.",
+    "In-game Description": "Honey-roasted fowl. The honey and sweet flowers come together to complement the tender fowl meat.",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Sweet Madame"
+  },
+  "Delicious Mora Meat": {
+    "Type": "Food, Special Dish",
+    "Rarity": 1,
+    "Effect": "Revives a character and restores 10% of Max HP, then restores an additional 150 HP.",
+    "In-game Description": "Ningguang's specialty. The pastry is perfectly soft and waxy, as is the consistency of the meat, and the honey-like meat juices ooze out as you squeeze it. Wherever did the high and mighty Tianquan Lady Ningguang learn to make this dish?",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Qiankun Mora Meat (Requires Ningguang)"
+  },
+  "Survival Grilled Fish": {
+    "Type": "Food",
+    "Rarity": 1,
+    "Effect": "Restores 10% of Max HP and an additional 1,200 HP to the selected character.",
+    "In-game Description": "A fish kebab grilled over an open flame. The shimmering golden skin has locked the fresh and tender meat in. You cannot help but sigh in satisfaction as you chew on it. Not a scrap of meat here will go uneaten, not even those stuck firmly to the bamboo stick.",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Delicious Grilled Tiger Fish"
+  },
+  "Suspicious Stir-Fried Filet": {
+    "Type": "Food, Special Dish",
+    "Rarity": 1,
+    "Effect": "Revives a character and restores 10% of Max HP, then restores an additional 150 HP.",
+    "In-game Description": "Beidou's specialty. They say that Beidou once learned some tricks from Xiangling, making some refinements and adding more flavor to this dish. If you can clean it out in one go, perhaps you might impress her.",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Flash-Fried Filet (Requires Beidou)"
+  },
+  "Suspicious Grilled Tiger Fish": {
+    "Type": "Food, Special Dish",
+    "Rarity": 1,
+    "Effect": "Restores 16% of Max HP and an additional 1,350 HP to the selected character.",
+    "In-game Description": "Keqing's specialty. This dish was not grilled. Instead, it was fried from within through the delicate application of Electro. A gentle bite reveals fragrant fish under the lightly charred skin, its taste perfectly balanced. So, is this how she survives in the wild? You really can't judge a book by its cover.",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Survival Grilled Fish (Requires Keqing)"
+  },
+  "Suspicious Mora Meat": {
+    "Type": "Food, Special Dish",
+    "Rarity": 1,
+    "Effect": "Revives a character and restores 10% of Max HP, then restores an additional 150 HP.",
+    "In-game Description": "Ningguang's specialty. The pastry is perfectly soft and waxy, as is the consistency of the meat, and the honey-like meat juices ooze out as you squeeze it. Wherever did the high and mighty Tianquan Lady Ningguang learn to make this dish?",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Qiankun Mora Meat (Requires Ningguang)"
+  },
+  "Suspicious Mondstadt Grilled Fish": {
+    "Type": "Food, Special Dish",
+    "Rarity": 1,
+    "Effect": "Revives a character and restores 10% of Max HP, then restores an additional 150 HP.",
+    "In-game Description": "Diona's specialty. The fish skin is crisp, and the meat is sumptuous. Only someone with a sufficiently great love for fish would be able to bring out such lovely flavors. Now, if only there were something to drink to go with it... Uh-oh, she's looking this way!",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Definitely Not Bar Food! (Requires Diona)"
+  },
+  "Flash-Fried Filet": {
+    "Type": "Food",
+    "Rarity": 1,
+    "Effect": "Revives a character and restores 150 HP.",
+    "In-game Description": "Slices of meat stir-fried on high heat. The spiciness is as a blaze amidst a field of snow that ignites your appetite and leaves you craving more.",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Delicious Stir-Fried Filet"
+  },
+  "Delicious Radish Veggie Soup": {
+    "Type": "Food",
+    "Rarity": 1,
+    "Effect": "Restores 9% of Max HP to the selected character and regenerates 260 HP every 5s for 30s.",
+    "In-game Description": "Radish-based vegetable soup. Its flavor is delicately between tart and sweet. With luscious radish, it's a well-balanced dish.",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Radish Veggie Soup"
+  },
+  "Mysterious Bolognese": {
+    "Type": "Food",
+    "Rarity": 2,
+    "Effect": "Restores 22% of Max HP to the selected character and regenerates 470 HP every 5s for 30s.",
+    "In-game Description": "Bolognese covered with a meat sauce. The beautiful, authentic flavors take you on a culinary adventure from the first bite to the last.",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Delicious Flaming Red Bolognese"
+  },
+  "Delicious Tea Break Pancake": {
+    "Type": "Food, Special Dish",
+    "Rarity": 2,
+    "Effect": "Revives a character and restores 15% of Max HP, then restores an additional 550 HP.",
+    "In-game Description": "Noelle's specialty. These thick pastries are the special afternoon snacks of the Knights of Favonius. They give people the sense that they have fallen upon a layer of fluffy clouds, and seeing Noelle's smile makes the feeling all the sweeter!",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Lighter-Than-Air Pancake (Requires Noelle)"
+  },
+  "Suspicious Satisfying Salad": {
+    "Type": "Food, Special Dish",
+    "Rarity": 2,
+    "Effect": "Increases all party members' CRIT Rate by 16% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "Mona's specialty. A great work from a great astrologer. Its greatest aspect lies with its cost-effectiveness in filling one's stomach.",
+    "Chef de Cuisine": "",
+    "": "Der Weisheit Letzter Schluss (Life) (Requires Mona)"
+  },
+  "Suspicious Jewelry Soup": {
+    "Type": "Food",
+    "Rarity": 2,
+    "Effect": "Increases all party members' DEF by 126 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "A simple vegetable soup. The mild-tasting soup is filled with the fragrance of fresh vegetables. This down-to-earth and heart-warming soup can rival any luxurious dish.",
+    "Maid's Knighthood": "",
+    "A Rad Recipe": "",
+    "": "Delicious Jewelry Soup"
+  },
+  "Der Weisheit Letzter Schluss (Life)": {
+    "Type": "Food",
+    "Rarity": 2,
+    "Effect": "Increases all party members' CRIT Rate by 12% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "A vegetable salad. Fresh, light, and varied. You'd never get tired of eating this, even if you had to eat it for the rest of your life.",
+    "Chef de Cuisine": "",
+    "": "Delicious Satisfying Salad"
+  },
+  "Suspicious Sweet Madame": {
+    "Type": "Food",
+    "Rarity": 2,
+    "Effect": "Restores 24% of Max HP and an additional 1,500 HP to the selected character.",
+    "In-game Description": "Honey-roasted fowl. Tender and sweet, the meat has perfectly fused with the honey, ensuring the only thing left of this dish will be the cleanly-picked bones.",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Delicious Sweet Madame"
+  },
+  "Fish-Flavored Toast": {
+    "Type": "Food",
+    "Rarity": 2,
+    "Effect": "Increases all party members' DEF by 126 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "Onion-covered toast. Exudes a wonderful aroma. Are the fish biting for the bait, or is it the toast they're after?",
+    "Maid's Knighthood": "",
+    "A Rad Recipe": "",
+    "": "Delicious Fisherman's Toast"
+  },
+  "Suspicious Fisherman’s Toast": {
+    "Type": "Food, Special Dish",
+    "Rarity": 2,
+    "Effect": "Increases all party members' DEF by 151 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "Klee's specialty. By way of apology for wantonly using her bombs to scare away the fish, Jean instructed Klee to make this toast for the fishermen. It's filling and tasty. Klee will never starve again, even after a whole day of blast fishing.",
+    "Maid's Knighthood": "",
+    "A Rad Recipe": "",
+    "": "Fish-Flavored Toast (Requires Klee)"
+  },
+  "Cold Noodles with Mountain Delicacies": {
+    "Type": "Food",
+    "Rarity": 2,
+    "Effect": "Restores 60 Stamina",
+    "In-game Description": "Noodles in a meat and vegetable sauce. The seemingly ordinary noodles have absorbed the essence of the mountainous delicacies. A single mouthful is enough to taste its extreme freshness.",
+    "": "Delicious Noodles with Mountain Delicacies"
+  },
+  "Delicious Lotus Seed and Bird Egg Soup": {
+    "Type": "Food",
+    "Rarity": 2,
+    "Effect": "Decreases all party members' sprinting Stamina consumption by 20% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "A steamed egg dish. The clear, gold colors of the egg custard have been embellished with several lotus roots. Regardless of whether it is breakfast or a post-meal snack, its superior nutritional value can greatly nourish the body.",
+    "": "Lotus Seed and Bird Egg Soup"
+  },
+  "Delicious Cream Stew": {
+    "Type": "Food, Special Dish",
+    "Rarity": 2,
+    "Effect": "Decreases all party members' sprinting Stamina consumption by 25% for 1500s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "Barbara's Specialty. Carrots cut into cute little stars make this dish... Wait, AHH, where did this spiciness come from!?",
+    "": "Spicy Stew (Requires Barbara)"
+  },
+  "Delicious Satisfying Salad": {
+    "Type": "Food, Special Dish",
+    "Rarity": 2,
+    "Effect": "Increases all party members' CRIT Rate by 16% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "Mona's specialty. A great work from a great astrologer. Its greatest aspect lies with its cost-effectiveness in filling one's stomach.",
+    "Chef de Cuisine": "",
+    "": "Der Weisheit Letzter Schluss (Life) (Requires Mona)"
+  },
+  "Delicious Almond Tofu": {
+    "Type": "Food, Special Dish",
+    "Rarity": 2,
+    "Effect": "Increases all party members' ATK by 114 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "Xiao's specialty. His dream is very simple, and it is merely a lovely dream.",
+    "Chef de Cuisine": "",
+    "": "\"Sweet Dream\" (Requires Xiao)"
+  },
+  "Delicious Jueyun Chili Chicken": {
+    "Type": "Food, Special Dish",
+    "Rarity": 2,
+    "Effect": "Increases all party members' CRIT Rate by 16% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "Xinyan's specialty. Its demonic appearance hides an absolutely demonic spiciness. Eat it, tear up, eat some more, and don't stop till you drop! Surely only a demon could have invented such a dish!",
+    "Chef de Cuisine": "",
+    "": "Rockin' Riffin' Chicken! (Requires Xinyan)"
+  },
+  "Rockin’ Riffin’ Chicken!": {
+    "Type": "Food",
+    "Rarity": 2,
+    "Effect": "Increases all party members' CRIT Rate by 12% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "Chicken in a dressing, served cold. The chicken is extremely tender, juicy, and sweet. The delicious taste transports you to the realm of dreams.",
+    "Chef de Cuisine": "",
+    "": "Delicious Jueyun Chili Chicken"
+  },
+  "Lighter-Than-Air Pancake": {
+    "Type": "Food",
+    "Rarity": 2,
+    "Effect": "Revives a character and restores 550 HP.",
+    "In-game Description": "A stack of round pancakes. Tender and fluffy, the sweet-smelling pancakes taste like clouds. A heavenly delicacy, no doubt.",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Delicious Tea Break Pancake"
+  },
+  "All-Delicacy Parcels": {
+    "Type": "Food",
+    "Rarity": 2,
+    "Effect": "Restores 22% of Max HP to the selected character and regenerates 470 HP every 5s for 30s.",
+    "In-game Description": "One of Liyue's traditional snacks. The outer skin is as clear its crystal namesake, and when it enters the mouth, one's tongue could be forgiven for thinking that the fresh shrimp within is still alive. Those who eat it can only lament that four pieces per serving is far, far too few.",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "Delicious Crystal Shrimp"
+  },
+  "Delicious Crystal Shrimp": {
+    "Type": "Food, Special Dish",
+    "Rarity": 2,
+    "Effect": "Restores 26% of Max HP to the selected character and regenerates 570 HP every 5s for 30s.",
+    "In-game Description": "Xingqiu's specialty. This dish's almost artisan appearance makes one almost reluctant to tuck in. But once you get a taste, its fresh, light and lovely sweetness will make the dish hard to put down.... Hang on a moment. Did he throw the carrots out, by any chance?",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "All-Delicacy Parcels (Requires Xingqiu)"
+  },
+  "Suspicious Lotus Seed and Bird Egg Soup": {
+    "Type": "Food",
+    "Rarity": 2,
+    "Effect": "Decreases all party members' sprinting Stamina consumption by 25% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "A steamed egg dish. The succulent eggs melt right in your mouth, and before you know it, a smooth and subtle sweetness of newly sprung lotus flowers covers your tastebuds.",
+    "": "Delicious Lotus Seed and Bird Egg Soup"
+  },
+  "Delicious Fried Radish Balls": {
+    "Type": "Food",
+    "Rarity": 2,
+    "Effect": "Increases all party members' ATK by 81 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "Fried Radish Balls. Fragrant and crispy. Make sure to eat them while they're hot! Said to be a recipe from Liyue.",
+    "Chef de Cuisine": "",
+    "": "Fried Radish Balls"
+  },
+  "Suspicious Jueyun Chili Chicken": {
+    "Type": "Food, Special Dish",
+    "Rarity": 2,
+    "Effect": "Increases all party members' CRIT Rate by 16% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "In-game Description": "Xinyan's specialty. Its demonic appearance hides an absolutely demonic spiciness. Eat it, tear up, eat some more, and don't stop till you drop! Surely only a demon could have invented such a dish!",
+    "Chef de Cuisine": "",
+    "": "Rockin' Riffin' Chicken! (Requires Xinyan)"
+  },
+  "Suspicious Crystal Shrimp": {
+    "Type": "Food, Special Dish",
+    "Rarity": 2,
+    "Effect": "Restores 26% of Max HP to the selected character and regenerates 570 HP every 5s for 30s.",
+    "In-game Description": "Xingqiu's specialty. This dish's almost artisan appearance makes one almost reluctant to tuck in. But once you get a taste, its fresh, light and lovely sweetness will make the dish hard to put down.... Hang on a moment. Did he throw the carrots out, by any chance?",
+    "With My Whole Heart♪": "",
+    "Guiding Breeze": "",
+    "Complimentary Bar Food": "",
+    "": "All-Delicacy Parcels (Requires Xingqiu)"
+  }
+}
