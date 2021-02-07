@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "02/07/2021 8:46:04 PM"
+    "x-generation-date": "02/07/2021 5:01:13 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -5979,7 +5979,8 @@
       },
       "Material": {
         "required": [
-          "id"
+          "id",
+          "name"
         ],
         "properties": {
           "id": {
@@ -6020,6 +6021,9 @@
         }
       },
       "NewMaterial": {
+        "required": [
+          "name"
+        ],
         "properties": {
           "name": {
             "type": "string"

@@ -1,3 +1,6 @@
+const utils = require("./utils");
+const strapi = require("strapi");
+
 /**
  * a bunch of helper functions for manipulating characters in strapi console
  *
@@ -774,16 +777,6 @@ var fns = {
   },
 
   /**
-   * test function
-   */
-  fixZL: () => {
-    strapi.services.character.update({
-      id: 1,
-      element: "geo",
-    });
-  },
-
-  /**
    * used to retrieve a map of links to item details
    *
    * eg. paste into console on item list page like:
@@ -848,6 +841,30 @@ var fns = {
           });
       }
     });
+  },
+
+  addMaterials: () => {
+    const utils = require("./scripts/utils");
+    let result = utils.readToJSON("./scripts/data/ingredients.json");
+
+    for (const [name, values] of Object.entries(result)) {
+      let params = {};
+
+      params.name = name;
+      params.description = values["In-game Description"];
+      params.rarity = values.Rarity;
+
+      strapi.services.material
+        .create(params)
+        .then(() => {
+          console.log("success");
+        })
+        .catch((e) => {
+          console.err(e);
+        });
+
+      break;
+    }
   },
 };
 

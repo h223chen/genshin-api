@@ -516,7 +516,8 @@
     "schemas": {
       "Material": {
         "required": [
-          "id"
+          "id",
+          "name"
         ],
         "properties": {
           "id": {
@@ -557,6 +558,9 @@
         }
       },
       "NewMaterial": {
+        "required": [
+          "name"
+        ],
         "properties": {
           "name": {
             "type": "string"
